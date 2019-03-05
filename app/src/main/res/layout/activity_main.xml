@@ -12,9 +12,10 @@
             android:clickable="true" app:srcCompat="@drawable/ic_play_arrow_black_24dp"
             android:id="@+id/playStop"
             app:backgroundTint="@color/colorPrimary" android:tint="@android:color/white" app:elevation="0dp"
-            tools:layout_editor_absoluteY="667dp" android:layout_marginEnd="8dp"
+            android:layout_marginEnd="8dp"
             app:layout_constraintEnd_toEndOf="parent" android:layout_marginStart="8dp"
-            app:layout_constraintStart_toStartOf="parent"/>
+            app:layout_constraintStart_toStartOf="parent" android:layout_marginBottom="8dp"
+            app:layout_constraintBottom_toBottomOf="parent"/>
     <TextView
             android:text="TextView"
             android:layout_width="wrap_content"
